@@ -57,11 +57,9 @@ p {
 
 /* header /banner section */
 header {
-    height: 100vh;
+    padding-top: 127px;
     background: rgba(229, 84, 115, 0.10);
-    padding-top: 45px;
-    overflow: hidden;
-    box-sizing: border-box;
+    height: 100vh;
 }
 
 
@@ -92,6 +90,51 @@ header .banner .banner-right img {
     width: 100%;
 }
 
+
+/* sectionOne */
+
+.sectionOne {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.flowerList {
+    padding: 100px 0;
+    display: flex;
+    gap: 40px;
+}
+
+.flowerList .floweItem p {
+    text-align: center;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.flowerItemImg {
+    padding: 35px 65px 0 65px;
+    display: inline-flex;
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.flowerList .floweItem .one {
+    background-color: #A7216226;
+}
+
+.flowerList .floweItem .two {
+    background-color: #0597A026;
+    align-items: center !important;
+}
+
+.flowerList .floweItem .three {
+    background-color: #477D1126;
+}
 
 /* sectionTwo */
 .sectionTwo {
@@ -128,29 +171,29 @@ header .banner .banner-right img {
     padding: 100px 0;
 }
 
-.sectionThree .top {
+.top {
     text-align: center;
 }
 
-.sectionThree .top p {
+.top p {
     width: 65%;
     margin: 25px auto !important;
 }
 
-.sectionThree .middle {
+.middle {
     margin: 50px 0;
 }
 
-.sectionThree .middle ul {
+.middle ul {
     display: flex;
     gap: 20px;
 }
 
-.sectionThree .middle li img {
+.middle li img {
     width: 100%;
 }
 
-.sectionThree .bottom {
+.bottom {
     margin-top: 40px;
     padding: 100px 0;
     width: 88%;
