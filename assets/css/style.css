@@ -26,6 +26,18 @@ li {
     list-style: none
 }
 
+h2 {
+    font-size: 40px;
+}
+
+p {
+    margin: 32px 0;
+    color: rgba(39, 39, 39, 0.55);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 .container {
     width: 85%;
     margin: auto;
@@ -45,9 +57,13 @@ li {
 
 /* header /banner section */
 header {
+    height: 100vh;
     background: rgba(229, 84, 115, 0.10);
     padding-top: 45px;
+    overflow: hidden;
+    box-sizing: border-box;
 }
+
 
 header .banner {
     display: flex;
@@ -67,18 +83,133 @@ header .banner .banner-left {
     font-weight: 800;
 }
 
-.banner-left p {
-    margin: 32px 0;
-    color: rgba(39, 39, 39, 0.55);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
 .banner-left button {
     width: 150px;
     text-align: center;
 }
 
-header .banner .banner-right img { 
- width: 100%;
+header .banner .banner-right img {
+    width: 100%;
+}
+
+
+/* sectionTwo */
+.sectionTwo {
+    background-color: #E554730D;
+    padding: 80px 0;
+}
+
+.sectionTwo .offerArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.sectionTwo-left {
+    text-align: center;
+}
+
+.sectionTwo-left p {
+    margin: 32px 135px;
+}
+
+.sectionTwo-right img {
+    width: 100%;
+}
+
+/* SectionThree */
+
+.sectionThree {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.sectionThree .top {
+    text-align: center;
+}
+
+.sectionThree .top p {
+    width: 65%;
+    margin: 25px auto !important;
+}
+
+.sectionThree .middle {
+    margin: 50px 0;
+}
+
+.sectionThree .middle ul {
+    display: flex;
+    gap: 20px;
+}
+
+.sectionThree .middle li img {
+    width: 100%;
+}
+
+.sectionThree .bottom {
+    margin-top: 40px;
+    padding: 100px 0;
+    width: 88%;
+    background: url('../images/Rectangle9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom .up {
+    text-align: center;
+}
+
+.bottom .up p {
+    margin: 16px 0 !important;
+}
+
+.bottom .down {
+    padding: 20px 0;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px
+}
+
+.bottom .down input {
+    display: flex;
+    width: 55%;
+    padding: 18px 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.bottom .down button {
+    width: 15%;
+}
+
+/* footer Section */
+footer {
+    padding: 100px 0;
+    background: #111010;
+}
+
+footer div {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+footer div p:first-of-type {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    width: 65%;
+    margin: 32px auto !important;
+}
+
+footer div p:last-of-type {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
 }
