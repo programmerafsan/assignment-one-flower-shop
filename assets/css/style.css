@@ -57,27 +57,23 @@ p {
 
 /* header /banner section */
 header {
-    padding-top: 127px;
     background: rgba(229, 84, 115, 0.10);
-    height: 100vh;
 }
-
 
 header .banner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
 }
 
 header .banner .banner-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 55%;
+    width: 500px;
 }
 
 .banner-left h1 {
     color: #272727;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 800;
 }
 
@@ -87,9 +83,8 @@ header .banner .banner-left {
 }
 
 header .banner .banner-right img {
-    width: 100%;
+    width: 450px;
 }
-
 
 /* sectionOne */
 
@@ -136,6 +131,23 @@ header .banner .banner-right img {
     background-color: #477D1126;
 }
 
+.services {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    background-color: #2727270D;
+}
+.services>.serviceItem {
+    text-align: center;
+}
+
+.services>.serviceItem>img {
+    height: 150px;
+    width: 150px;
+}
+
 /* sectionTwo */
 .sectionTwo {
     background-color: #E554730D;
@@ -164,22 +176,25 @@ header .banner .banner-right img {
 
 /* Sectionbonus */
 .bonus {
-    height: 700px;
     background-color: antiquewhite;
-    padding: 80px 0;
-
+    padding: 70px 0;
 }
+
 .bonus-title {
     text-align: center;
+    margin-bottom: 40px;
 }
 
-.bonus-content > ul {
-    width: 85%;
+.bonus>ul {
     display: flex;
-    justify-content:center;
-    margin: 0 150px;
-    padding: 50px;
-    gap: 60px;
+    justify-content: center;
+    gap: 30px
+}
+
+.bonus ul li img {
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
 }
 
 
@@ -217,7 +232,7 @@ header .banner .banner-right img {
 .bottom {
     margin-top: 40px;
     padding: 100px 0;
-    width: 88%;
+    width: 100%;
     background: url('../images/Rectangle9.png'), lightgray 0px -203.444px / 100% 213.755% no-repeat;
     background-size: cover;
     display: flex;
