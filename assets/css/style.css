@@ -162,6 +162,27 @@ header .banner .banner-right img {
     width: 100%;
 }
 
+/* Sectionbonus */
+.bonus {
+    height: 700px;
+    background-color: antiquewhite;
+    padding: 80px 0;
+
+}
+.bonus-title {
+    text-align: center;
+}
+
+.bonus-content > ul {
+    width: 85%;
+    display: flex;
+    justify-content:center;
+    margin: 0 150px;
+    padding: 50px;
+    gap: 60px;
+}
+
+
 /* SectionThree */
 
 .sectionThree {
